@@ -1,0 +1,243 @@
+nav {
+  position: fixed;
+  z-index: 2;
+}
+
+nav .nav-wrapper {
+  background: #450005;
+  /* fallback for old browsers */
+}
+
+nav .nav-wrapper .brand-logo {
+  margin-left: 10px;
+  margin-top: 3px;
+}
+
+nav .nav-wrapper .btn {
+  background: #FFEBD2;
+  color: #450005;
+  font-weight: 600;
+}
+
+#mobile-demo {
+  background: #450005;
+}
+
+#mobile-demo a {
+  color: white;
+}
+
+#mobile-demo .btn {
+  background: #FFEBD2;
+  color: #450005;
+}
+
+.topSection .parallax-container .parallax {
+  width: 100%;
+}
+
+.topSection .parallax-container .parallax img {
+  width: 100%;
+}
+
+.topSection .parallax-container .test {
+  margin-top: 25%;
+}
+
+.topSection .parallax-container .test h1 {
+  font-weight: 700;
+  color: #450005;
+}
+
+.topSection .parallax-container .test button {
+  background: #FFEBD2;
+  color: #450005;
+  font-weight: 600;
+}
+
+.topSection .parallax-container .test a {
+  color: #450005;
+}
+
+.intro {
+  margin-top: 10px;
+}
+
+.intro .container {
+  width: 80%;
+}
+
+.intro .def {
+  background: #FFEBD2;
+}
+
+.intro .def h1, .intro .def h5, .intro .def p {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.logo .parallax-container {
+  height: 300px;
+}
+
+.about {
+  margin-top: 20px;
+  background: url(../images/about.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #FFEBD2;
+}
+
+.about .col {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.contact {
+  background: #FFEBD2;
+}
+
+.contact .container {
+  width: 80%;
+}
+
+.contact .container p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer {
+  background: #450005;
+  color: #FFEBD2;
+}
+
+.footer a {
+  color: #FFEBD2;
+}
+
+.footer .socialMedia {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 20px;
+}
+
+.footer .socialMedia a {
+  font-size: 30px;
+  color: #FFEBD2;
+}
+
+.signin {
+  height: 100vh;
+  background: url(../images/signin.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.signin .container form {
+  background: rgba(255, 235, 210, 0.9);
+  margin-top: 12vh;
+  border-radius: 5%;
+}
+
+.signin .container form .row {
+  padding: 20px;
+}
+
+.signin .container form .row .logo .material-icons {
+  font-size: 60px;
+}
+
+.signup {
+  background: url(../images/signup.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.signup .container form {
+  background: rgba(255, 235, 210, 0.9);
+  margin-top: 11.5vh;
+  border-radius: 5%;
+}
+
+.signup .container form .row {
+  padding: 20px;
+}
+
+.signup .container form .row .logo .material-icons {
+  font-size: 60px;
+}
+
+.prevention {
+  padding-top: 10%;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(255, 235, 210, 0.9)), to(rgba(255, 235, 210, 0.3))), url(../images/test.jpg);
+  background-image: linear-gradient(to top, rgba(255, 235, 210, 0.9), rgba(255, 235, 210, 0.3)), url(../images/test.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.prevention h3 {
+  color: #450005;
+}
+
+.treatment {
+  background: #FFEBD2;
+}
+
+.treatment h3 {
+  padding: 30px;
+  color: #450005;
+}
+
+.treatment .container {
+  width: 80%;
+}
+
+.predict {
+  background: #FFEBD2;
+  font-size: 20px;
+  padding-top: 7%;
+  color: #450005;
+  font-weight: 500;
+}
+
+.predict h2 {
+  background: #450005;
+  padding: 12px;
+  color: #FFEBD2;
+  border-radius: 10px;
+}
+
+.predict p {
+  font-size: 25px;
+  padding: 5px;
+  border-bottom: 1px solid #450005;
+}
+
+.predict .container {
+  width: 80%;
+}
+
+.predict img {
+  width: 100%;
+}
+
+.predict input[type="file"] {
+  padding: 20px;
+}
+
+.predict button {
+  border: none;
+  background: #450005;
+  color: #FFEBD2;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 10px;
+  margin-left: 5px;
+  width: 57.5%;
+}
+/*# sourceMappingURL=style.css.map */

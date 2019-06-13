@@ -1,0 +1,228 @@
+$color:(
+    primary: #450005,
+    secondary: #FFEBD2
+);
+@function color($colorName){
+    @return map-get($map: $color, $key: $colorName )
+};
+
+
+nav{
+    position: fixed;
+    z-index: 2;
+    .nav-wrapper{
+        background: color(primary);  /* fallback for old browsers */
+        // background: -webkit-linear-gradient(to right,color(primary) , color(secondary));  /* Chrome 10-25, Safari 5.1-6 */
+        // background: linear-gradient(to right, color(primary) , color(secondary)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        .brand-logo{
+            margin-left: 10px;
+            margin-top: 3px;
+        }
+        .btn{
+            background: color(secondary);
+            color: color(primary);
+            font-weight: 600;
+        }
+    }
+}
+#mobile-demo{
+    a{
+        color: white;
+    }
+    background: color(primary);
+    .btn{
+        background: color(secondary);
+        color: color(primary);
+    }
+}
+
+.topSection{
+    .parallax-container{
+        .parallax{
+            width: 100%;
+            img{
+                width: 100%;
+            }
+        }
+        .test{
+            margin-top: 25%;
+            h1{
+                font-weight: 700;
+                color: color(primary); 
+            }
+            button{
+                background: color(secondary);
+                color: color(primary);
+                font-weight: 600;
+            }
+            a{
+                color: #450005;
+            }
+        }
+    }
+}
+
+.intro{
+    margin-top: 10px;
+    .container{
+        width: 80%;
+    }
+    .def{
+        background: color(secondary);
+        h1, h5, p{
+            padding-right: 20px;
+            padding-left: 20px;
+        }
+    }
+}
+
+.logo{
+    .parallax-container{
+        height: 300px;
+    }
+}
+
+.about{
+    margin-top: 20px;
+    background: url(../images/about.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: color(secondary);
+    .col{
+        background: rgba(0, 0, 0, 0.3);
+    }
+}
+
+.contact{
+    background: color(secondary);
+    .container{
+        width: 80%;
+        p{
+            display: flex;
+        }
+    }
+}
+
+.footer{
+    background: color(primary);
+    color: color(secondary);
+    a{
+        color: color(secondary);
+    }
+    .socialMedia{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 20px;
+        a{
+            font-size: 30px;
+            color: color(secondary);
+        }
+    }
+}
+
+.signin{
+    height: 100vh;
+    background: url(../images/signin.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    .container{
+        form{
+            // background: #FFEBD2;
+            background: rgba(255,235,210, 0.9);
+            margin-top: 12vh;
+            border-radius: 5%;
+            .row{
+                padding: 20px;
+                .logo{
+                    .material-icons{
+                        font-size: 60px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.signup{
+    background: url(../images/signup.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    .container{
+        form{
+            background: rgba(255,235,210, 0.9);
+            margin-top: 11.5vh;
+            border-radius: 5%;
+            .row{
+                padding: 20px;
+                .logo{
+                    .material-icons{
+                        font-size: 60px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.prevention{
+    padding-top: 10%;
+    background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(255,235,210, 0.9)), to(rgba(255,235,210, 0.3))),url(../images/test.jpg);
+    background-image: linear-gradient(to top, rgba(255,235,210, 0.9), rgba(255,235,210, 0.3)), url(../images/test.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    h3{
+        color: #450005;
+    }
+}
+
+.treatment{
+    background: #FFEBD2;
+    h3{
+        padding: 30px;
+        color: #450005;
+    }
+    .container{
+        width: 80%;
+    }
+}
+
+.predict{
+    background: #FFEBD2;
+    font-size: 20px;
+    padding-top: 7%;
+    color: #450005;
+    font-weight: 500;
+    h2{
+        background:#450005;
+        padding: 12px;
+        color: #FFEBD2;
+        border-radius: 10px;
+    }
+    p{
+        font-size: 25px;
+        padding: 5px;
+        border-bottom: 1px solid #450005;
+    }
+    .container{
+        width: 80%;
+    }
+    img{
+        width: 100%;
+    }
+    input[type="file"]{
+        padding: 20px;
+    }
+    button{
+        border: none;
+        background: #450005;
+        color: #FFEBD2;
+        border-radius: 10px;
+        cursor: pointer;
+        font-size: 20px;
+        padding: 10px;
+        margin-left: 5px;
+        width: 57.5%;
+    }
+}
